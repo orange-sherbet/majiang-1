@@ -1,11 +1,6 @@
 {
-  /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */
   "rules": {
-    "rooms": {
-      "$roomId": {
-        ".read": true,
-        ".write": true
-      }
-    }
+    ".read": "now < 1631890800000",  // 2021-9-18
+    ".write": "now < 1631890800000",  // 2021-9-18
   }
 }
