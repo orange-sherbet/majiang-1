@@ -1,3 +1,15 @@
+#firebaseのデプロイの仕方
+
+yarn global add firebase-tools => cliを使えるようにする =>(目的) firebase login など 
+
+firebase login
+
+firebase projects:list => ログインしたGoogleのアカウントに紐づいているprojectを出力 => Gorrilaが出てきたら成功!
+
+firebase init
+
+firebase deploy
+
 # Majiang「麻将」
 
 A web-based platform for variations of Majiang (also written Mahjong); built on top of the _card.pak_ engine.
